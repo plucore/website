@@ -43,7 +43,7 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-500 bg-clip-text text-transparent">
-                TransformAI
+                Plucore
               </span>
             </Link>
           </div>
