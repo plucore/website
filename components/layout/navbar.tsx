@@ -81,7 +81,7 @@ export function Navbar() {
           
           <div className="flex items-center">
             <Button
-              variant="primary"
+              variant="default"
               className="hidden md:block bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white rounded-md mr-4"
               asChild
             >
@@ -164,7 +164,7 @@ export function Navbar() {
             </Link>
             
             <Button
-              variant="primary"
+              variant="default"
               className="w-full mt-4 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white rounded-md"
               onClick={() => setIsMenuOpen(false)}
               asChild
